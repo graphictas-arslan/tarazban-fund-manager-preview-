@@ -5,4 +5,12 @@ export default defineConfig({
   base: "/tarazban-fund-manager-preview-/",
   plugins: [react()],
   server: { host: "0.0.0.0" },
+  build: {
+    rollupOptions: {
+      input: {
+        main: "index.html",
+        owner: "owner.html",
+      },
+    },
+  },
 });
