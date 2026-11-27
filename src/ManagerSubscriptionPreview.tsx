@@ -60,8 +60,8 @@ export default function ManagerSubscriptionPreview() {
         <div className="subscription-preview-grid">
           <article><span>طرح اشتراک</span><strong>{plans[status]}</strong></article>
           <article><span>مدت اشتراک</span><strong>{durations[status]}</strong></article>
-          <article><span>تاریخ شروع</span><strong>{noSubscription?"—":"۱۴۰۵/۰۸/۰۱ · ۱۰:۳۰"}</strong></article>
-          <article><span>تاریخ پایان</span><strong>{noSubscription?"—":status==="active"?"۱۴۰۵/۰۹/۰۱ · ۱۰:۳۰":status==="expired"?"۱۴۰۵/۰۸/۰۸ · ۱۰:۳۰":"۱۴۰۶/۰۸/۰۱ · ۱۰:۳۰"}</strong></article>
+          <article><span>تاریخ شروع</span><strong>{noSubscription?"—":"۱۴۰۵/۰۸/۲۴ · ۱۰:۳۰"}</strong></article>
+          <article><span>تاریخ پایان</span><strong>{noSubscription?"—":status==="active"?"۱۴۰۵/۰۹/۲۴ · ۱۰:۳۰":status==="expired"?"۱۴۰۵/۰۸/۰۸ · ۱۰:۳۰":"۱۴۰۶/۰۸/۰۱ · ۱۰:۳۰"}</strong></article>
           <article className="subscription-preview-days"><span><Clock3 size={14}/> زمان باقی‌مانده</span><strong>{remaining===null?"—":remaining===0?"۰ روز":`${new Intl.NumberFormat("fa-IR").format(remaining)} روز`}</strong></article>
         </div>
 
