@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { ArrowRightLeft, CheckCircle2, CircleAlert, ClipboardList, CreditCard, FileImage, History, ShieldCheck, Upload, Wallet, X } from "lucide-react";
+import { CheckCircle2, CircleAlert, ClipboardList, CreditCard, FileImage, History, ShieldCheck, Upload, Wallet, X } from "lucide-react";
 
 type Plan="basic"|"professional"|"special";
 type Duration="week"|"month"|"year"|"lifetime";
