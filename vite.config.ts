@@ -11,6 +11,7 @@ export default defineConfig({
         main: "index.html",
         owner: "owner.html",
         managerSubscription: "manager-subscription.html",
+        paymentsPreview: "payments-preview.html",
       },
     },
   },
