@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
+.subscription-preview-shell{min-height:100vh;display:grid;place-items:center;padding:22px;background:radial-gradient(circle at 12% 10%,#dfeae1 0,transparent 34%),#f3f5f1;color:#20312a;font-family:"Vazirmatn",Tahoma,Arial,sans-serif;direction:rtl}
+.subscription-preview-card{width:min(100%,700px);background:#fff;border:1px solid #e4eae4;border-radius:20px;box-shadow:0 22px 75px #1c39251a;padding:27px}
+.subscription-preview-brand{display:flex;align-items:center;gap:11px;padding-bottom:20px;border-bottom:1px solid #edf0ec}
+.subscription-preview-mark{width:43px;height:43px;border-radius:13px;background:#1d4436;color:#c5dfcf;display:grid;place-items:center}
+.subscription-preview-brand>div:nth-child(2){display:flex;flex-direction:column;gap:3px}
+.subscription-preview-brand strong{font-size:19px;font-weight:800}
+.subscription-preview-brand span{font-size:10px;color:#89968e}
+.subscription-preview-demo{margin-right:auto;display:inline-flex!important;align-items:center;gap:5px;padding:7px 9px;border-radius:7px;background:#f1f4ef;color:#78877d!important;font-size:9px!important}
+.subscription-preview-notice{margin:15px 0;padding:9px 11px;border:1px solid #e8eee8;border-radius:8px;background:#f8faf7;color:#78877e;font-size:9px;line-height:1.9}
+.subscription-preview-switch{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:17px 0}
+.subscription-preview-switch>span{font-size:10px;color:#77867d}
+.subscription-preview-switch>div{display:flex;flex-wrap:wrap;gap:5px}
+.subscription-preview-switch button{height:30px;padding:0 9px;border:1px solid #e4eae4;border-radius:7px;background:#fff;color:#738178;font:inherit;font-size:9px}
+.subscription-preview-switch button.selected{border-color:#245d4c;background:#245d4c;color:white}
+.subscription-preview-status{display:flex;align-items:center;gap:11px;padding:14px;border-radius:12px}
+.subscription-preview-status strong,.subscription-preview-status span{display:block}
+.subscription-preview-status strong{font-size:12px}
+.subscription-preview-status span{font-size:9px;margin-top:4px;opacity:.8}
+.subscription-preview-status.active{background:#edf6ef;color:#397553}
+.subscription-preview-status.blocked{background:#fbf1ed;color:#a36c5d}
+.subscription-preview-greeting{padding:20px 2px 6px}
+.subscription-preview-greeting h1{font-size:20px;margin:0;font-weight:800}
+.subscription-preview-greeting p{font-size:11px;color:#87938d;margin:5px 0 12px}
+.subscription-preview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.subscription-preview-grid article{min-width:0;padding:13px;border:1px solid #e9eee9;border-radius:10px;background:#fafbf9}
+.subscription-preview-grid article span{display:flex;align-items:center;gap:5px;font-size:9px;color:#87938d;margin-bottom:7px}
+.subscription-preview-grid article strong{display:block;font-size:11px;color:#293b32;overflow-wrap:anywhere;line-height:1.9}
+.subscription-preview-grid .subscription-preview-days{grid-column:1/-1;background:#f4f7f3}
+.subscription-preview-grid .subscription-preview-days strong{font-size:15px;color:#32694f}
+.subscription-preview-contact{display:flex;gap:10px;align-items:flex-start;margin-top:15px;padding:14px;border:1px solid #f0e2dc;border-radius:11px;background:#fff9f6;color:#a36c5d}
+.subscription-preview-contact>svg{flex-shrink:0;margin-top:2px}
+.subscription-preview-contact strong{font-size:10px}
+.subscription-preview-contact p{font-size:9px;line-height:2;margin:5px 0 0;color:#8f776f}
+.subscription-preview-active-note{padding:11px 13px;border-radius:9px;background:#f2f7f3;color:#59806a;font-size:10px;line-height:2}
+.subscription-preview-footer{display:flex;justify-content:space-between;border-top:1px solid #edf0ec;padding-top:14px;margin-top:19px;color:#96a19a;font-size:9px}
+@media(max-width:600px){.subscription-preview-shell{padding:12px}.subscription-preview-card{padding:17px;border-radius:15px}.subscription-preview-switch{align-items:flex-start;flex-direction:column}.subscription-preview-switch>div{width:100%}.subscription-preview-switch button{flex:1}.subscription-preview-grid{gap:7px}.subscription-preview-grid article{padding:10px}.subscription-preview-grid article strong{font-size:10px}}
