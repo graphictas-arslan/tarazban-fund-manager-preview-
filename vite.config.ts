@@ -10,6 +10,7 @@ export default defineConfig({
       input: {
         main: "index.html",
         owner: "owner.html",
+        managerSubscription: "manager-subscription.html",
       },
     },
   },
